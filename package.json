@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builder.io/dev-tools": "latest",
+    "@builder.io/dev-tools": "^1.1.41",
     "@builder.io/react": "^7.0.1",
     "@builder.io/sdk": "^5.0.0",
     "next": "15.0.3",

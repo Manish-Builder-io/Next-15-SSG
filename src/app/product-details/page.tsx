@@ -20,6 +20,7 @@ export default async function Page({ params }: { params: any }) {
   const { page } = await params; // Await params if it's a promise
 
   const urlPath = `/${page?.join("/") || ""}`;
+
   const content = await builder
     .get("page", { userAttributes: { urlPath: urlPath } })
     .toPromise();
