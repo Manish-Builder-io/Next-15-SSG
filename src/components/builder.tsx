@@ -1,6 +1,7 @@
 "use client";
 
 import { BuilderComponent, useIsPreviewing } from "@builder.io/react";
+import "@/builder-registry";
 
 export function RenderBuilderContent({
   content,
